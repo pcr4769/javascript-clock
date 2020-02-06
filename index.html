@@ -2,23 +2,53 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="items.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+
     <meta charset="utf-8" />
   </head>
 
   <body>
-    <div class="js-clock">
-      <h1>00:00:00</h1>
+    <div class="stop-dragging">
+      <span class="js-weather"></span>
+      <div class="js-clock">
+        <div class="clock">
+          <div class="clock_number">00:00:00</div>
+        </div>
+      </div>
+      <form class="js-form form">
+        <input
+          class="write_name"
+          type="text"
+          placeholder="What is your name?"
+        />
+      </form>
+      <h4 class="js-greetings"></h4>
+      <form class="js-toDoForm">
+        <input class="write_todo" type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList">
+        <li class="todo_li">
+          <button class="del_btn">❌</button>
+        </li>
+      </ul>
+
+      <script src="clock.js"></script>
+      <script src="greeting.js"></script>
+      <script src="todo.js"></script>
+      <script src="bg.js"></script>
+      <script src="weather.js"></script>
     </div>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList"></ul>
-    <h4 class="js-greetings greetings"></h4>
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-    <script src="todo.js"></script>
   </body>
 </html>

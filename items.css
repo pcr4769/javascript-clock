@@ -1,0 +1,98 @@
+div.stop-dragging {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.clock {
+  font-weight: 300;
+  font-family: "Poiret One", cursive;
+}
+.clock_number {
+  font-size: 150px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.js-form form,
+.js-toDoForm,
+.js-greetings {
+  font-weight: 500;
+}
+
+.clock_number,
+.clock,
+.js-form form,
+.js-toDoForm,
+.js-greetings {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.js-weather {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 17px;
+}
+
+.clock,
+.js-toDoList,
+.js-greetings,
+.js-weather,
+.js-toDoForm,
+.write_name,
+.write_todo {
+  color: whitesmoke;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.del_btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+input::placeholder {
+  color: whitesmoke;
+  align-items: center;
+  font-family: "Poiret One", cursive;
+  font-weight: 600;
+}
+
+.clock,
+.js-greetings,
+input {
+  margin-top: auto;
+}
+
+.clock {
+  font-size: 70px;
+}
+
+.js-greetings {
+  font-size: 60px;
+  font-family: "Poiret One", cursive;
+  font-weight: 600;
+}
+.js-toDoList {
+  font-size: 20px;
+}
+input {
+  width: 500px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-bottom: 4px solid whitesmoke;
+  background-color: transparent;
+  outline: none;
+  color: whitesmoke;
+}
