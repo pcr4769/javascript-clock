@@ -22,28 +22,29 @@
   <body>
     <div class="stop-dragging">
       <span class="js-weather"></span>
-      <div class="js-clock">
-        <div class="clock">
-          <div class="clock_number">00:00:00</div>
+      <div class="clock-column">
+        <div class="js-clock">
+          <div class="clock">
+            <div class="clock_number">00:00:00</div>
+          </div>
         </div>
+        <form class="js-form form">
+          <input
+            class="write_name"
+            type="text"
+            placeholder="What is your name?"
+          />
+        </form>
+        <h4 class="js-greetings"></h4>
+        <form class="js-toDoForm">
+          <input class="write_todo" type="text" placeholder="Write a to do" />
+        </form>
+        <ul class="js-toDoList">
+          <li class="todo_li">
+            <button class="del_btn">❌</button>
+          </li>
+        </ul>
       </div>
-      <form class="js-form form">
-        <input
-          class="write_name"
-          type="text"
-          placeholder="What is your name?"
-        />
-      </form>
-      <h4 class="js-greetings"></h4>
-      <form class="js-toDoForm">
-        <input class="write_todo" type="text" placeholder="Write a to do" />
-      </form>
-      <ul class="js-toDoList">
-        <li class="todo_li">
-          <button class="del_btn">❌</button>
-        </li>
-      </ul>
-
       <script src="clock.js"></script>
       <script src="greeting.js"></script>
       <script src="todo.js"></script>

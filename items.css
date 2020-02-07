@@ -96,3 +96,6 @@ input {
   outline: none;
   color: whitesmoke;
 }
+.clock-column {
+  margin-top: 250px;
+}
